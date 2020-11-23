@@ -1,6 +1,25 @@
-<svg type="color-fill-current" width="20px" height="20px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="ScSvg-sc-1j5mt50-1 hAChQG">
+    
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg" type="color-fill-current" viewBox="0 0 20 20" x="0px" y="0px">
     <g>
-        <path fill="#FF8C00" d="M10 6a4 4 0 014 4h-2a2 2 0 00-2-2V6z"></path>
+        <path class="inside" fill="#FF8C00" d="M10 6a4 4 0 014 4h-2a2 2 0 00-2-2V6z"></path>
         <path fill="#6441A4" fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0a6 6 0 11-12 0 6 6 0 0112 0z" clip-rule="evenodd"></path>
     </g>
+<style>
+    .inside {
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        transform-origin: center;
+        animation-timing-function: cubic-bezier(.17,.67,.72,.67);
+    }
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
 </svg>

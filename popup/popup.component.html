@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Autoclicker statistics</title>
+
+        <link rel="stylesheet" href="popup.component.css">
+    </head>
+    <body>
+        <div class="asideContainer">
+            <object type="image/svg+xml" data="../icons/icon.svg" id="logo"></object>
+            <div class="totalPointsContainer">
+                <h3 class="totalPointsText">
+                    Total points:
+                </h3>
+                <h3 id="totalPointsValue"></h3>
+            </div>
+        </div>
+
+        <div id="chart"></div>
+
+        <a href="https://github.com/HCichy" target="_blank" id="author">@HCichy</a>
+        <script src="../js-lib/frappe-charts.min.iife.js"></script>
+        <script src="popup.component.js"></script>
+    </body>
+</html>
